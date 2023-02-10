@@ -9,6 +9,7 @@ public class Filewriter_oneline {
   public static void main(String str) {
     try {
       FileWriter writer = new FileWriter(homeDir +"/ittia1_chart/addjar_ittia5/hitto/bp/bpoutput",true);
+//      FileWriter writer = new FileWriter(homeDir +"/ittia1_chart/addjar_ittia5/hitto/bp/bpoutput",true);
       writer.write(str+"\n");
       writer.close();
       System.out.println("String written to file.");
