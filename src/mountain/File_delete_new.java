@@ -5,9 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class File_delete_new {
-	  static String homeDir = System.getProperty("user.home");
-	  static String fhomeDir = homeDir + "/ittia1_chart/addjar_ittia5/hitto/bp/bpoutput";
-  public static void main(String[] args) {
+  public static void main(String fhomeDir) {
     try {
     	File file = new File(fhomeDir);
     	file.delete();
