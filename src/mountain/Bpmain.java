@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Bpmain {
 	  static String homeDir = System.getProperty("user.home");
-	  static String fhomeDir = homeDir + "/ittia1_chart/addjar_ittia5/hitto/bp/bpoutput";
+	  static String fhomeDir = homeDir + "/ittia1_chart/addjar_ittia5/hito/bp/bpoutput";
 	  static String bp1 = "at GDS, ";
 	  static String bp2,bp3,bp4;
 	  static String bp5 = "Regular ";
